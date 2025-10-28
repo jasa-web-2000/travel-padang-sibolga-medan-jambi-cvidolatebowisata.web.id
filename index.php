@@ -1,18 +1,17 @@
 <?php
 
-// $domain = 'http://localhost/altranstravel.web.id/';
-$domain = 'https://altranstravel.web.id/';
-$brand = 'AL Trans Travel';
+// $domain = 'http://localhost/travel-padang-sibolga-medan-jambi-cvidolatebowisata.web.id/';
+$domain = 'https://travel-padang-sibolga-medan-jambi-cvidolatebowisata.web.id/';
+$brand = 'CV Idola Tebo Wisata';
 $logo = 'src/img/logo.jpg';
 $logoPanjang = 'src/img/logo.jpg';
-$title = $brand . " Pangandaran, Ciamis, Tasik, Garut, Bandung & Jabodetabek";
-$desc = $brand . " akan membantu anda melakukan travel dari Pangandaran, Ciamis, Tasik, Garut, Bandung ke Jabodetabek dengan harga murah dan terjangkau.";
-$telp = '0838-4606-3835';
+$title = $brand . " Travel Padang Sibolga Medan Jambi";
+$desc = $brand . " akan membantu anda melakukan Travel Padang Sibolga Medan Jambi dengan harga murah dan terjangkau.";
+$telp = '0813-7466-1216';
 // $telp2 = '0857-9190-4615';
-$alamat = 'Sadananya, Kec. Sadananya, Kabupaten Ciamis, Jawa Barat 46256, Indonesia';
+$alamat = 'Simpang 4 Ketaping/Simpang 4 kampus Unand by pass, Jl. By Pass, Ps. Ambacang, Kec. Kuranji, Kota Padang, Sumatera Barat 25151';
 
-
-$iframe = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.7711643901207!2d108.31950317410771!3d-7.266862492740023!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6f5b7818e9a611%3A0xd88b5c9b589e3cf5!2sP8MC%2B7R4%2C%20Sadananya%2C%20Kec.%20Sadananya%2C%20Kabupaten%20Ciamis%2C%20Jawa%20Barat!5e0!3m2!1sid!2sid!4v1761023844015!5m2!1sid!2sid';
+$iframe = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.2878781622044!2d100.39912190000001!3d-0.9342968999999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2fd4b90d035ae6bb%3A0x482982fb1bf7d526!2sTravel%20padang%20medan%20sibolga%20lahat%20lampung%20palembang%20jambi%20tebo%20bungo%20rimbo%20bangka%20belitung%20pagar%20alam%20lubuk%20linggau%20bengkulu!5e0!3m2!1sid!2sid!4v1761641413260!5m2!1sid!2sid';
 
 
 function res_telp($telp)
@@ -52,85 +51,88 @@ $menu = [
 
 
 $rute = [
-  "Travel Pangandaran Jakarta",
-  "Travel Ciamis Jakarta",
-  "Travel Tasik Jakarta",
-  "Travel Garut Jakarta",
-  "Travel Bandung Jakarta",
+  "Travel Padang Muara Bungo",
+  "Travel Padang Rimbo Bujang",
+  "Travel Padang Muara Tebo",
+  "Travel Padang Sibolga",
+  "Travel Padang Penyambungan",
+  "Travel Padang Sidempuan",
+  "Travel Padang Medan",
+  "Travel Padang Sipirok",
+  "Travel Padang Tarutung",
+  "Travel Padang Balige",
+  "Travel Padang Tebing Tinggi",
+  "Travel Padang Pematang Siantar",
+  "Travel Padang Kisaran",
+  "Travel Padang Rantau Prapat",
+  "Travel Padang Binjai",
+  "Travel Padang Berastagi",
+  "Travel Padang Singkil",
+  "Travel Padang Kota Nopan",
+  "Travel Muara Tebo Bukittinggi",
+  "Travel Muara Tebo Pekanbaru",
+  "Travel Muara Tebo Penyambungan",
+  "Travel Muara Tebo Sidempuan",
+  "Travel Muara Tebo Kisaran",
+  "Travel Muara Tebo Balige",
+  "Travel Muara Tebo Siantar",
+  "Travel Muara Tebo Tebing Tinggi",
+  "Travel Muara Tebo Medan",
+  "Travel Muara Tebo Aceh Singkil",
+  "Travel Muara Tebo Sidikalang",
+  "Travel Muara Tebo Meulabouh",
+  "Travel Muara Tebo Sibolga",
 
-  "Travel Pangandaran Bogor",
-  "Travel Ciamis Bogor",
-  "Travel Tasik Bogor",
-  "Travel Garut Bogor",
-  "Travel Bandung Bogor",
+  "Travel Muara Bungo Padang",
+  "Travel Rimbo Bujang Padang",
+  "Travel Muara Tebo Padang",
+  "Travel Sibolga Padang",
+  "Travel Penyambungan Padang",
+  "Travel Sidempuan Padang",
+  "Travel Medan Padang",
+  "Travel Sipirok Padang",
+  "Travel Tarutung Padang",
+  "Travel Balige Padang",
+  "Travel Tebing Tinggi Padang",
+  "Travel Pematang Siantar Padang",
+  "Travel Kisaran Padang",
+  "Travel Rantau Prapat Padang",
+  "Travel Binjai Padang",
+  "Travel Berastagi Padang",
+  "Travel Singkil Padang",
+  "Travel Kota Nopan Padang",
+  "Travel Bukittinggi Muara Tebo",
+  "Travel Pekanbaru Muara Tebo",
+  "Travel Penyambungan Muara Tebo",
+  "Travel Sidempuan Muara Tebo",
+  "Travel Kisaran Muara Tebo",
+  "Travel Balige Muara Tebo",
+  "Travel Siantar Muara Tebo",
+  "Travel Tebing Tinggi Muara Tebo",
+  "Travel Medan Muara Tebo",
+  "Travel Aceh Singkil Muara Tebo",
+  "Travel Sidikalang Muara Tebo",
+  "Travel Meulabouh Muara Tebo",
+  "Travel Sibolga Muara Tebo",
 
-  "Travel Pangandaran Depok",
-  "Travel Ciamis Depok",
-  "Travel Tasik Depok",
-  "Travel Garut Depok",
-  "Travel Bandung Depok",
-
-  "Travel Pangandaran Tangerang",
-  "Travel Ciamis Tangerang",
-  "Travel Tasik Tangerang",
-  "Travel Garut Tangerang",
-  "Travel Bandung Tangerang",
-
-  "Travel Pangandaran Bekasi",
-  "Travel Ciamis Bekasi",
-  "Travel Tasik Bekasi",
-  "Travel Garut Bekasi",
-  "Travel Bandung Bekasi",
-
-  // PP
-
-  "Travel Jakarta Pangandaran",
-  "Travel Jakarta Ciamis",
-  "Travel Jakarta Tasik",
-  "Travel Jakarta Garut",
-  "Travel Jakarta Bandung",
-
-  "Travel Bogor Pangandaran",
-  "Travel Bogor Ciamis",
-  "Travel Bogor Tasik",
-  "Travel Bogor Garut",
-  "Travel Bogor Bandung",
-
-  "Travel Depok Pangandaran",
-  "Travel Depok Ciamis",
-  "Travel Depok Tasik",
-  "Travel Depok Garut",
-  "Travel Depok Bandung",
-
-  "Travel Tangerang Pangandaran",
-  "Travel Tangerang Ciamis",
-  "Travel Tangerang Tasik",
-  "Travel Tangerang Garut",
-  "Travel Tangerang Bandung",
-
-  "Travel Bekasi Pangandaran",
-  "Travel Bekasi Ciamis",
-  "Travel Bekasi Tasik",
-  "Travel Bekasi Garut",
-  "Travel Bekasi Bandung",
 ];
 
 $kota = [
   [
-    'Ciamis',
-    'ciamis.jpg',
+    'Padang',
+    'padang.jpg',
   ],
   [
-    'Jakarta',
-    'jakarta.jpg',
+    'Sibolga',
+    'sibolga.jpg',
   ],
   [
-    'Depok',
-    'depok.jpg',
+    'Medan',
+    'medan.jpg',
   ],
   [
-    'Bandung',
-    'bandung.jpg',
+    'Jambi',
+    'jambi.jpg',
   ],
 ];
 
@@ -151,25 +153,6 @@ $galeri = [
   class="scroll-smooth">
 
 <head>
-
-  <!-- Google Tag Manager -->
-  <script>
-    (function(w, d, s, l, i) {
-      w[l] = w[l] || [];
-      w[l].push({
-        'gtm.start': new Date().getTime(),
-        event: 'gtm.js'
-      });
-      var f = d.getElementsByTagName(s)[0],
-        j = d.createElement(s),
-        dl = l != 'dataLayer' ? '&l=' + l : '';
-      j.async = true;
-      j.src =
-        'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-      f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-TMLKN5ST');
-  </script>
-  <!-- End Google Tag Manager -->
 
   <meta name="author" content="Dion Zebua" />
   <meta charset="UTF-8" />
@@ -205,10 +188,8 @@ $galeri = [
 </head>
 
 <body class="font-poppins text-slate-700 overflow-x-hidden">
-  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TMLKN5ST"
-      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
+
+
   <header class="">
     <div class="container !py-0">
       <div class="flex justify-between">
@@ -522,7 +503,7 @@ $galeri = [
                   href="<?= $link_whatsapp ?>!"
                   class=""></a>
                 <img
-                  src="./src/img/rute-travel-al-trans-travel.jpg"
+                  src="./src/img/rute.jpg"
                   width="100%"
                   height="100%"
                   loading="lazy"
@@ -557,11 +538,14 @@ $galeri = [
             <div class="text inner-container">
               <h2 class="line-h2 left-12 text-slate-50 before:!bg-blue-300 after:!bg-blue-300">Tentang Kami</h2>
               <p class="desc !text-slate-300 !mb-5">
-                <?= $desc ?> Fokus pada rute <a href="https://jasatravel.web.id/rute-travel/dari-ciamis/ke-dki-jakarta/320701/31" class="underline" target="_blank">Travel Ciamis Jakarta</a> pulang pergi, via tol, 24 ja, dan bonus makan sekali. Kami hadir sebagai solusi transportasi anda dengan ebebrapa layanan yang akan membantu anda seperti:
+                <?= $desc ?> Fokus pada rute <a href="https://jasatravel.web.id/rute-travel/dari-jambi/ke-kota-padang/15/170206" class="underline" target="_blank">Travel padang Jambi</a> pulang pergi, via tol, 24 ja, dan bonus makan sekali. Kami hadir sebagai solusi transportasi anda dengan beberapa layanan yang akan membantu anda seperti:
               </p>
               <ul class="!list-item !list-disc text-slate-300 ml-5">
+                <li>Travel Reguler</li>
                 <li>Carter Regular</li>
                 <li>Carter Drop</li>
+                <li>Rental Mobil</li>
+                <li>Bus Pariwisata</li>
                 <li>Kirim Paket</li>
                 <li>Paket Wisata</li>
               </ul>
