@@ -532,6 +532,8 @@ $galeri = [
           <div class="col-span-full md:!col-span-1  ">
             <div class="w-full md:max-w-[400px]">
               <video controls autoplay src="<?= $domain . "src/video/1.mp4" ?>"></video>
+              <video controls autoplay src="<?= $domain . "src/video/2.mp4" ?>"></video>
+              <video controls autoplay src="<?= $domain . "src/video/3.mp4" ?>"></video>
               <!-- <img loading="lazy" src="<?= $domain . $logo ?>" class="w-full rounded-lg" alt="tentang <?= $title ?>"> -->
             </div>
           </div>
