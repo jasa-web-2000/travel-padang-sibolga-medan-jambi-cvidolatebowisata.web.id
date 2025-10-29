@@ -226,7 +226,7 @@ $galeri = [
               class="hidden md:flex flex-col md:flex-row gap-8 lg:gap-11 [&_li]:flex [&_li]:items-center [&_li_a]:font-medium [&_li_a]:text-slate-700 hover:[&_li_a]:text-primary-hover hover:[&_li]:scale-110 hover:[&_li]:transition-all">
               <?php if (count($menu) > 0) : ?>
                 <?php foreach ($menu as $item) : ?>
-                  <li><a href="<?= $item[1] ?>"><?= $item[0] ?></a></li>
+                  <li><a href="<?= $domain . $item[1] ?>"><?= $item[0] ?></a></li>
                 <?php endforeach; ?>
               <?php endif; ?>
               <a
@@ -276,7 +276,7 @@ $galeri = [
 
                 <?php if (count($menu) > 0) : ?>
                   <?php foreach ($menu as $item) : ?>
-                    <li><a href="<?= $item[1] ?>"><?= $item[0] ?></a></li>
+                    <li><a href="<?= $domain . $item[1] ?>"><?= $item[0] ?></a></li>
                   <?php endforeach; ?>
                 <?php endif; ?>
                 <a
@@ -531,7 +531,8 @@ $galeri = [
         <div class="grid grid-cols-1 md:!grid-cols-2 gap-8">
           <div class="col-span-full md:!col-span-1  ">
             <div class="w-full md:max-w-[400px]">
-              <img loading="lazy" src="<?= $domain . $logo ?>" class="w-full rounded-lg" alt="tentang <?= $title ?>">
+              <video controls autoplay src="<?= $domain . "src/video/1.mp4" ?>"></video>
+              <!-- <img loading="lazy" src="<?= $domain . $logo ?>" class="w-full rounded-lg" alt="tentang <?= $title ?>"> -->
             </div>
           </div>
           <div class="col-span-full md:!col-span-1  ">
