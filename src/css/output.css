@@ -2260,3 +2260,15 @@ header.activeHeader {
   --tw-text-opacity: 1;
   color: rgb(225 21 21 / var(--tw-text-opacity));
 }
+
+.\[\&_video\]\:mb-5 video {
+  margin-bottom: 1.25rem;
+}
+
+.\[\&_video\]\:w-full video {
+  width: 100%;
+}
+
+.\[\&_video\]\:rounded-lg video {
+  border-radius: 0.5rem;
+}
