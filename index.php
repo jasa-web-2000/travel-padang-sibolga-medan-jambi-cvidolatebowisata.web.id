@@ -180,11 +180,11 @@ $galeri = [
   <link rel="canonical" href="<?= $domain ?>" />
 
   <link
-    href="./src/css/output.css"
+    href="<?= $domain ?>src/css/output.css"
     rel="stylesheet" />
   <link
     rel="stylesheet"
-    href="./src/css/swiper-bundle.min.css" />
+    href="<?= $domain ?>src/css/swiper-bundle.min.css" />
 </head>
 
 <body class="font-poppins text-slate-700 overflow-x-hidden">
@@ -1100,7 +1100,7 @@ $galeri = [
     </p>
   </footer>
 
-  <script src="./src/js/swiper-bundle.min.js"></script>
+  <script src="<?= $domain ?>src/js/swiper-bundle.min.js"></script>
 
   <script>
     var swiper = new Swiper(".mySwiper", {
