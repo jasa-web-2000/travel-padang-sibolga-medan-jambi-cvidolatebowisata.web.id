@@ -2184,6 +2184,10 @@ header.activeHeader {
   inset: 0px;
 }
 
+.\[\&_img\]\:mb-5 img {
+  margin-bottom: 1.25rem;
+}
+
 .\[\&_img\]\:h-full img {
   height: 100%;
 }

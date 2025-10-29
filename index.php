@@ -530,7 +530,7 @@ $galeri = [
       <div class="container">
         <div class="grid grid-cols-1 md:!grid-cols-2 gap-8">
           <div class="col-span-full md:!col-span-1  ">
-            <div class="w-full md:max-w-[400px]">
+            <div class="w-full md:max-w-[400px] [&_img]:w-full [&_img]:mb-5">
               <video controls autoplay src="<?= $domain . "src/video/1.mp4" ?>"></video>
               <video controls autoplay src="<?= $domain . "src/video/2.mp4" ?>"></video>
               <video controls autoplay src="<?= $domain . "src/video/3.mp4" ?>"></video>
